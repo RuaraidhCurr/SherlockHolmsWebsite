@@ -1,0 +1,215 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+    background-color: black;
+  }
+  
+.img1, .img2, .img3, .img4, .img5, .img6, .img7 {
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
+  
+.img1{
+    background-image:url('./images/1.png');
+    min-height:100%;
+}
+.img2{
+  background-image:url('./images/2.png');
+  min-height:100%;
+  outline-style: solid;
+  outline-width: 10px;
+  outline-color: black;
+}
+.img3{
+  background-image:url('./images/3.png');
+  min-height:100%;
+  outline-style: solid;
+  outline-width: 7px;
+  outline-color: black;
+}
+.img4{
+  background-image:url('./images/4.png');
+  min-height:100%;
+  outline-style: solid;
+  outline-width: 7px;
+  outline-color: black;
+}
+.img5{
+  background-image:url('./images/5.png');
+  min-height:100%;
+  outline-style: solid;
+  outline-width: 7px;
+  outline-color: black;
+}
+.img6{
+  background-image:url('./images/6.png');
+  min-height:100%;
+  outline-width: 7px;
+  outline-style: solid;
+  outline-color: black;
+}
+.img7{
+  background-image:url('./images/7.png');
+  min-height:100%;
+  outline-style: solid;
+  outline-width: 7px;
+  outline-color: black;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+  background-color:#15181b;
+  color:#ddd;
+}
+
+.ptext10{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext1{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext2{
+  background-color:rgba(12, 11, 11, 0.7);
+  position:absolute;
+  top:20%;
+  width:30%;
+  height: 500px;
+  margin-left:65vw;
+  text-align:center;
+  color:#000;
+  font-size:18px;
+  letter-spacing:8px;
+}
+
+.ptext3{
+  background-color:rgba(12, 11, 11, 0.7);
+  position:absolute;
+  top:20%;
+  width:30%;
+  height: 500px;
+  margin-left:65vw;
+  text-align:center;
+  color:#000;
+  font-size:18px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext4{
+  background-color:rgba(12, 11, 11, 0.7);
+  position:absolute;
+  top:60%;
+  width:60%;
+  height: 200px;
+  margin-left:35vw;
+  text-align:center;
+  color:#000;
+  font-size:18px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext5{
+  background-color:rgba(12, 11, 11, 0.7);
+  position:absolute;
+  top:10%;
+  width:35%;
+  margin-left:10%;
+  height: 500px;
+  text-align:center;
+  color:#000;
+  font-size:18px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext6{
+  background-color:rgba(12, 11, 11, 0.7);
+  position:absolute;
+  top:40%;
+  width:45%;
+  margin-left:50%;
+  height: 300px;
+  text-align:center;
+  color:#000;
+  font-size:18px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext7{
+  background-color:rgba(12, 11, 11, 0.7);
+  position:absolute;
+  top:15%;
+  width: 40%;
+  margin-left:5%;
+  height: 600px;
+  text-align:center;
+  color:#000;
+  font-size:17px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext10 .border{
+  color:#fff;
+  background-color:rgb(12, 11, 11);
+  padding:20px;
+}
+.ptext1 .border{
+  background-color:rgb(12, 11, 11);
+  color:#fff;
+  padding:20px;
+}
+.ptext2 .border{
+  color:#fff;
+  padding:20px;
+}
+.ptext3 .border{
+  color:#fff;
+  padding:20px;
+}
+.ptext4 .border{
+  color:#fff;
+  padding:20px;
+}
+.ptext5 .border{
+  color:#fff;
+  padding:20px;
+}
+.ptext6 .border{
+  color:#fff;
+  padding:20px;
+}
+.ptext7 .border{
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
